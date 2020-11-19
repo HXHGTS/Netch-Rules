@@ -33,56 +33,45 @@
   "SubscribeLink": [],
   "Server": [
     {
-      "Remark": "香港腾讯云",
+      "Remark": "xxxx",
       "Group": "NONE",
       "Type": "Trojan",
       "Rate": 1.0,
-      "Hostname": "hk.hxhgts.cf",
+      "Hostname": "xxxx",
       "Port": 443,
       "Delay": 45,
-      "Password": "ZPUENTyAjpEsuETfp5AO0VTIPyio",
-      "Host": "hk.hxhgts.cf"
-    },
-    {
-      "Remark": "香港阿里云",
-      "Group": "NONE",
-      "Type": "Trojan",
-      "Rate": 1.0,
-      "Hostname": "hk2.hxhgts.cf",
-      "Port": 443,
-      "Delay": 61,
-      "Password": "7EZbawKdcg54aYb33JVPDgTLg8i5",
-      "Host": null
+      "Password": "xxxx",
+      "Host": "xxxx"
     }
   ],
   "BypassIPs": [],
   "Profiles": [
     {
-      "ServerRemark": "香港腾讯云",
+      "ServerRemark": "xxxx",
       "ModeRemark": "Rainbow Six Siege",
       "ProfileName": "Rainbow Six Siege",
       "IsDummy": false
     },
     {
-      "ServerRemark": "香港腾讯云",
+      "ServerRemark": "xxxx",
       "ModeRemark": "PUBG",
       "ProfileName": "PUBG",
       "IsDummy": false
     },
     {
-      "ServerRemark": "香港腾讯云",
+      "ServerRemark": "xxxx",
       "ModeRemark": "Epic Games",
       "ProfileName": "Epic Games",
       "IsDummy": false
     },
     {
-      "ServerRemark": "香港腾讯云",
+      "ServerRemark": "xxxx",
       "ModeRemark": "TGP",
       "ProfileName": "PUBG Mobile",
       "IsDummy": false
     },
     {
-      "ServerRemark": "香港阿里云",
+      "ServerRemark": "xxxx",
       "ModeRemark": "Tap",
       "ProfileName": "Tap模式",
       "IsDummy": false
