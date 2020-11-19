@@ -1,0 +1,27 @@
+# TGP
+adb.exe
+AndroidEmulator.exe
+AndroidRenderer.exe
+aow_exe.exe
+bugreport.exe
+bugreport_xf.exe
+QQPCExternal.exe
+TInst.exe
+TSettingCenter.exe
+TxGaDcc.exe
+TP3Helper.exe
+Updater32.exe
+AppMarket.exe
+dxwebsetup.exe
+GameDownload.exe
+GameLogin.exe
+MGDetector.exe
+QMEmulatorService.exe
+QQExternal.exe
+TBSWebRenderer.exe
+ui.exe
+Rootfs100Update.exe
+Market.exe
+TUninstall.exe
+TUpdate.exe
+syzs_dl_svr.exe

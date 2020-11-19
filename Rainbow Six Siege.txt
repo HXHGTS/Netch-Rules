@@ -1,0 +1,15 @@
+# Rainbow Six Siege, 0
+RainbowSix.exe
+rainbowsix_be.exe
+RainbowSix_Vulkan.exe
+BEService_x64.exe
+UbisoftConnect.exe
+UbisoftGameLauncher.exe
+UbisoftGameLauncher64.exe
+upc.exe
+Uplay.exe
+UplayCrashHelper.exe
+UplayCrashHelper64.exe
+UplayCrashReporter.exe
+UplayService.exe
+UplayWebCore.exe
