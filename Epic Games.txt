@@ -1,8 +1,0 @@
-# Epic Games, 0, 0
-EOSOverlayRenderer-Win32-Shipping.exe
-EOSOverlayRenderer-Win64-Shipping.exe
-CrashReportClient.exe
-EpicGamesLauncher.exe
-UnrealCEFSubProcess.exe
-UnrealEngineLauncher.exe
-UnrealVersionSelector.exe
