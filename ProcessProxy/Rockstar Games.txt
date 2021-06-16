@@ -1,0 +1,5 @@
+# Rockstar Games, 0
+^D:\\Program Files \(x86\)\\Steam\\
+^D:\\Program Files\\Rockstar Games\\
+^C:\\Program Files\\Rockstar Games\\
+^C:\\Program Files \(x86\)\\Rockstar Games\\

@@ -1,0 +1,4 @@
+# Origin Games, 0
+^D:\\Program Files \(x86\)\\Steam\\
+^D:\\Program Files \(x86\)\\Origin\\
+^D:\\Program Files \(x86\)\\Origin Games\\

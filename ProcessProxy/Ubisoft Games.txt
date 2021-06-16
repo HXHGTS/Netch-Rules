@@ -1,0 +1,3 @@
+# Ubisoft Games, 0
+^D:\\Program Files \(x86\)\\Ubisoft\\
+^D:\\Program Files \(x86\)\\Steam\\
