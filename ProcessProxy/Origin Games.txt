@@ -1,4 +1,54 @@
 # Origin Games, 0
-^D:\\Program Files \(x86\)\\Steam\\
-^D:\\Program Files \(x86\)\\Origin\\
-^D:\\Program Files \(x86\)\\Origin Games\\
+EACoreServer\.exe
+EAProxyInstaller\.exe
+Login\.exe
+MessageDlg\.exe
+OriginLegacyCLI\.exe
+OriginUninstall\.exe
+PatchProgress\.exe
+EALink\.exe
+EAProxyInstaller\.exe
+EASteamProxy\.exe
+GetGameToken32\.exe
+GetGameToken64\.exe
+igoproxy\.exe
+igoproxy64\.exe
+Origin\.exe
+OriginClientService\.exe
+OriginCrashReporter\.exe
+OriginER\.exe
+OriginThinSetupInternal\.exe
+OriginUninstall\.exe
+OriginWebHelperService\.exe
+QtWebEngineProcess\.exe
+UpdateTool\.exe
+vcredist_x64\.exe
+vcredist_x64_vs2010\.exe
+vcredist_x64_vs2015\.exe
+vcredist_x86\.exe
+vcredist_x86_vs2010\.exe
+vcredist_x86_vs2015\.exe
+\\Origin Games\\
+html5app_steam\.exe
+steamwebhelper\.exe
+drivers\.exe
+fossilize-replay\.exe
+fossilize-replay64\.exe
+gldriverquery\.exe
+gldriverquery64\.exe
+secure_desktop_capture\.exe
+steamservice\.exe
+steamxboxutil\.exe
+steamxboxutil64\.exe
+steam_monitor\.exe
+vulkandriverquery\.exe
+vulkandriverquery64\.exe
+x64launcher\.exe
+x86launcher\.exe
+\\common\\
+GameOverlayUI\.exe
+steam\.exe
+steamerrorreporter\.exe
+steamerrorreporter64\.exe
+streaming_client\.exe
+uninstall\.exe
