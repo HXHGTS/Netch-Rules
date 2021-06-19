@@ -52,3 +52,20 @@ steamerrorreporter\.exe
 steamerrorreporter64\.exe
 streaming_client\.exe
 uninstall\.exe
+DXSETUP\.exe
+CrashReportClient\.exe
+EpicGamesLauncher\.exe
+CrashReportClient\.exe
+EpicGamesLauncher\.exe
+EpicWebHelper\.exe
+UnrealEngineLauncher\.exe
+UnrealVersionSelector\.exe
+EpicGamesLauncher\.exe
+EpicGamesLauncher\.exe
+InstallChainer\.exe
+OriginThinSetup\.exe
+CrashReportClient\.exe
+EOSOverlayRenderer-Win32-Shipping\.exe
+EOSOverlayRenderer-Win64-Shipping\.exe
+LauncherPrereqSetup_x64\.exe
+\\Epic Games\\
