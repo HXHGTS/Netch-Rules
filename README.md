@@ -10,10 +10,19 @@
 
 Netch配置建议:
 
-![image](https://user-images.githubusercontent.com/38959826/126447008-d171f758-8b21-43ce-add5-d934d9d715b9.png)
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/38959826/126447008-d171f758-8b21-43ce-add5-d934d9d715b9.png" width="30%" height="30%">
+</h1>
 
-![image](https://user-images.githubusercontent.com/38959826/126447047-5e5b2f91-c4b4-4efe-ba9b-c1833aca021b.png)
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/38959826/126447047-5e5b2f91-c4b4-4efe-ba9b-c1833aca021b.png" width="30%" height="30%">
+</h1>
 
-![image](https://user-images.githubusercontent.com/38959826/126447078-ddea1167-c74a-4343-b5ad-09b25625afff.png)
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/38959826/126447078-ddea1167-c74a-4343-b5ad-09b25625afff.png" width="30%" height="30%">
+</h1>
 
-![image](https://user-images.githubusercontent.com/38959826/126447103-d9f8f04f-41cd-4bd0-b8c4-e9c4314e19d4.png)
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/38959826/126447103-d9f8f04f-41cd-4bd0-b8c4-e9c4314e19d4.png" width="30%" height="30%">
+</h1>
+
