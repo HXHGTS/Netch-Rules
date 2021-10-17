@@ -11,7 +11,7 @@
 Netch配置建议:
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/38959826/126447008-d171f758-8b21-43ce-add5-d934d9d715b9.png" width="30%" height="30%">
+  <img src="https://user-images.githubusercontent.com/38959826/137627391-96107770-1cd8-4471-b577-4afe72fc0883.png" width="30%" height="30%">
 </h1>
 
 <h1 align="center">
@@ -23,6 +23,6 @@ Netch配置建议:
 </h1>
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/38959826/126447103-d9f8f04f-41cd-4bd0-b8c4-e9c4314e19d4.png" width="30%" height="30%">
+  <img src="https://user-images.githubusercontent.com/38959826/137627379-cc5e3114-8431-418d-bb45-7dbbd0b9d87b.png" width="30%" height="30%">
 </h1>
 
