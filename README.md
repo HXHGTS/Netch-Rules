@@ -2,6 +2,8 @@
 
 自己使用的Netch游戏规则
 
+注意⚠：1.9.2版本开始支持icmp劫持！进入战地不再有红插头！
+
 [Netch下载](https://github.com/NetchX/Netch/releases/latest/download/Netch.7z)
 
 [规则下载](https://github.com/HXHGTS/Netch-Rules/archive/main.zip)
