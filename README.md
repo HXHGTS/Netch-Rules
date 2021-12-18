@@ -27,7 +27,7 @@ Netch配置建议:
 </h1>
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/38959826/137627463-9111bef1-9dea-4692-b6f2-0b1f9ad7879d.png" width="30%" height="30%">
+  <img src="https://user-images.githubusercontent.com/38959826/146637379-bc63ca20-6604-4e12-ae36-7d5bd71c7a46.png" width="30%" height="30%">
 </h1>
 
 #### 开发者邮箱
