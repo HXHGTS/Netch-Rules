@@ -32,4 +32,4 @@ Netch配置建议:
 
 #### 开发者邮箱
 
-[hxhgts@outlook.com](mailto:CZpj7U4w4iZ7VLHyp6yY@outlook.com)
+[CZpj7U4w4iZ7VLHyp6yY@outlook.com](mailto:CZpj7U4w4iZ7VLHyp6yY@outlook.com)
