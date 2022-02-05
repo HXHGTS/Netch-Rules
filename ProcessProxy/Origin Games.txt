@@ -72,4 +72,9 @@ vcredist_x86\.exe
 vcredist_x86_vs2010\.exe
 vcredist_x86_vs2015\.exe
 ^\\Origin Games\\
+DiscordHookHelper\.exe
+DiscordHookHelper64\.exe
+capture_helper\.exe
+Discord\.exe
+Update\.exe
 
