@@ -1,0 +1,6 @@
+# Discord, 0
+DiscordHookHelper\.exe
+DiscordHookHelper64\.exe
+capture_helper\.exe
+Discord\.exe
+Update\.exe
