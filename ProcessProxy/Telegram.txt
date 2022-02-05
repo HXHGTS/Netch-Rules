@@ -1,0 +1,5 @@
+# Telegram, 0
+Telegram\.exe
+unins000\.exe
+Updater\.exe
+^\\Telegram Desktop\\
