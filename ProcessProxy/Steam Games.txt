@@ -22,3 +22,8 @@ steamerrorreporter\.exe
 steamerrorreporter64\.exe
 streaming_client\.exe
 uninstall\.exe
+DiscordHookHelper\.exe
+DiscordHookHelper64\.exe
+capture_helper\.exe
+Discord\.exe
+Update\.exe
