@@ -48,3 +48,8 @@ EOSOverlayRenderer-Win32-Shipping\.exe
 EOSOverlayRenderer-Win64-Shipping\.exe
 LauncherPrereqSetup_x64\.exe
 \\Epic Games\\
+DiscordHookHelper\.exe
+DiscordHookHelper64\.exe
+capture_helper\.exe
+Discord\.exe
+Update\.exe
