@@ -1,0 +1,9 @@
+# Emby Client, 0
+cec-client\.exe
+cec-client\.x64\.exe
+p8-usbcec-driver-installer\.exe
+RefreshRate\.exe
+electron\.exe
+Emby\.Theater\.exe
+MediaBrowser\.Uninstaller\.exe
+MediaBrowser\.Updater\.exe
