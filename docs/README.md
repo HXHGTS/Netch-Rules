@@ -6,6 +6,8 @@
 
 [Netch下载](https://github.com/NetchX/Netch/releases/latest/download/Netch.7z)
 
+[.NET 6.0.6下载](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.6-windows-x64-installer)
+
 [规则下载](https://github.com/HXHGTS/Netch-Rules/archive/main.zip)
 
 Netch配置建议:
