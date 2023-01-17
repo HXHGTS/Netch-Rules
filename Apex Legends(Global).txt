@@ -1,4 +1,4 @@
-# Apex Legends, 2
+# Apex Legends(Global), 2
 1.13.172.0/24
 11.63.6.50/32
 11.0.0.0/4
