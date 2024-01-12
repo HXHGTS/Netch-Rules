@@ -41,7 +41,7 @@ void convert(string output_file) {
         return;
     }
     // 用_popen函数，执行route print命令，并获取其输出
-    FILE* fp = _popen("route print -4 | find \".\" | find /v \"..\"", "r");
+    FILE* fp = _popen("route print -4 | find \"172.19.83\"", "r");
     if (fp == NULL) { // 如果执行失败，就返回
         cout << "命令执行失败" << endl;
         return;
