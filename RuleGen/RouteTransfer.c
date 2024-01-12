@@ -32,42 +32,7 @@ int mask2cidr(string mask) {
 }
 
 // 定义一个函数，将windows路由表转换成“ip地址/子网掩码”的格式
-vector<string> convert(string input_file) {
-    // 打开输入文件
-    ifstream fin(input_file);
-    // 判断文件是否打开成功
-    if (!fin) {
-        cout << "文件打开失败" << endl;
-        return {};
-    }
-    // 定义一个字符串向量，存储转换后的结果
-    vector<string> result;
-    // 读取输入文件的每一行
-    string line;
-    while (getline(fin, line)) {
-        // 将每一行按照空格分割成五个字段
-        vector<string> fields;
-        stringstream ss(line);
-        string field;
-        while (ss >> field) {
-            fields.push_back(field);
-        }
-        // 获取网络目标和子网掩码
-        string destination = fields[0];
-        string genmask = fields[1];
-        // 调用函数，将子网掩码转换成CIDR的位数
-        int cidr = mask2cidr(genmask);
-        // 将“ip地址/子网掩码”的格式添加到结果向量中
-        result.push_back(destination + "/" + to_string(cidr));
-    }
-    // 关闭输入文件
-    fin.close();
-    // 返回结果向量
-    return result;
-}
-
-// 定义一个函数，将“ip地址/子网掩码”的格式转换成json格式
-void to_json(vector<string> ips, string output_file) {
+void convert(string output_file) {
     // 打开输出文件
     ofstream fout(output_file);
     // 判断文件是否打开成功
@@ -75,33 +40,44 @@ void to_json(vector<string> ips, string output_file) {
         cout << "文件打开失败" << endl;
         return;
     }
-    // 写入json格式的开始
-    fout << "{\n";
-    fout << "\t\"ip\": [\n";
-    // 遍历结果向量
-    for (int i = 0; i < ips.size(); i++) {
-        // 写入每个ip地址，最后一个不加逗号
-        fout << "\t\t\"" << ips[i] << "\"";
-        if (i != ips.size() - 1) {
-            fout << ",";
-        }
-        fout << "\n";
+    // 用_popen函数，执行route print命令，并获取其输出
+    FILE* fp = _popen("route print -4 | find \".\" | find /v \"..\"", "r");
+    if (fp == NULL) { // 如果执行失败，就返回
+        cout << "命令执行失败" << endl;
+        return;
     }
-    // 写入json格式的结束
-    fout << "\t]\n";
-    fout << "}\n";
-    // 关闭输出文件
+    // 读取命令输出的每一行
+    char line[256];
+    while (fgets(line, sizeof(line), fp) != NULL) {
+        // 将每一行按照空格分割成五个字段
+        vector<string> fields;
+        stringstream ss(line);
+        string field;
+        while (ss >> field) {
+            fields.push_back(field);
+        }
+        // 判断是否是路由表的一条记录
+        if (fields.size() == 5) {
+            // 获取网络目标和子网掩码
+            string destination = fields[0];
+            string genmask = fields[1];
+            // 调用函数，将子网掩码转换成CIDR的位数
+            int cidr = mask2cidr(genmask);
+            // 将“ip地址/子网掩码”的格式写入输出文件
+            fout << destination << "/" << cidr << endl;
+        }
+    }
+    // 关闭_popen函数和输出文件
+    _pclose(fp);
     fout.close();
 }
 
 // 主函数
 int main() {
-    // 调用函数，将windows路由表转换成“ip地址/子网掩码”的格式
-    vector<string> ips = convert("d:\\route.txt");
-    // 调用函数，将“ip地址/子网掩码”的格式转换成json格式
-    to_json(ips, "d:\\route.json");
+    // 调用函数，将windows路由表转换成“ip地址/子网掩码”的格式，并输出到d:\route.txt文件中
+    convert("d:\\route.txt");
     // 打印输出文件的内容
-    system("type d:\\route.json");
+    system("type d:\\route.txt");
     // 暂停程序
     system("pause");
     // 返回0
